@@ -5,7 +5,7 @@
     /* MLA格式标准字体 */
     --base-Latin-font: "Times New Roman", Times, serif;
     --base-Chinese-font: "家族宋", "宋体-简", "华文宋体", "Noto Serif CJK SC";
-    --base-font-size: 12pt; /* 修改为MLA标准12pt */
+    --base-font-size: 11pt; /* 修改为11pt */
     /* 引言字体 */
     --quote-font: "Times New Roman", Times, serif, "华文仿宋";
     /* em单位为一个正文字符（--base-font-size）大小，
@@ -87,6 +87,7 @@ body {
 @media print {
     #write {
         padding: 0 !important;
+        font-size: 9pt !important; /* 导出时使用9pt */
     }
     h2 {
         break-before: var(--page-break-before-h2);
