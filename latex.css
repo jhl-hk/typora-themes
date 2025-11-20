@@ -152,6 +152,18 @@ strong {
     font-size: var(--math-font-size);
 }
 
+/* 隐藏公式编号 / Hide equation numbering */
+.MathJax_ref,
+mjx-label,
+.mjx-label,
+.MJXc-TeX-number,
+.MJXp-TeX-number,
+.MathJax .mjx-mrow mjx-mlabeledtr mjx-label,
+span.eqno,
+span.MathJax_ref {
+    display: none !important;
+}
+
 /* typora 编写模式 */
 #typora-source {
     font-family: var(--sourceMode-font), var(--code-font), var(--ui-font), monospace;
