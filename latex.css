@@ -161,13 +161,7 @@ mjx-label,
 .MJXp-TeX-number,
 .MathJax .mjx-mrow mjx-mlabeledtr mjx-label,
 span.eqno,
-span.MathJax_ref,
-.MJXc-display .MJXc-TeX-number,
-.MJXp-display .MJXp-TeX-number,
-mjx-container[display="true"] mjx-label,
-.mjx-math mjx-label,
-mjx-mlabeledtr > mjx-label,
-mjx-mtable mjx-label {
+span.MathJax_ref {
     display: none !important;
 }
 
